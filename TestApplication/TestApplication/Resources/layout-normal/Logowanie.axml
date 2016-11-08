@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Wybierz sposób logowania"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="109.0dp"
+        android:id="@+id/textView1"
+        android:inputType="time"
+        android:autoText="false"
+        android:layout_marginTop="0dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="200dp" />
+    <ImageButton
+        android:src="@drawable/cs_ipla"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageButton1"
+        android:textAlignment="center"
+        android:minWidth="0dp"
+        android:maxWidth="0dp"
+        android:paddingTop="0dp"
+        android:paddingLeft="0dp"
+        android:layout_marginLeft="210dp" />
+    <ImageButton
+        android:src="@drawable/facebook"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageButton2"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
